@@ -8,7 +8,7 @@ export default defineConfig({
     workspace: [
       {
         test: {
-          include: ["vitest-example/**"],
+          include: ["vitest-example/**/*.test.ts"],
           browser: {
             enabled: true,
             provider: 'playwright',
